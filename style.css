@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.root,.experiance, .contact{
+    background: rgb(90,138,255);
+    background: linear-gradient(90deg, rgba(90,138,255,1) 0%, rgba(61,251,239,1) 100%);
+}
+.logo{
+    font-size: 40px;
+    text-decoration: none;
+
+}
+.h_1{
+    font-family: 'Roboto', sans-serif;
+}
+.h_2{
+    font-family: 'Roboto', sans-serif;
+}
+.skill_logo{
+    font-size: xx-large;
+}
+.skill_logo:hover{
+    font-size: xx-large;
+    background: -webkit-linear-gradient(rgb(23, 123, 223), rgb(37, 251, 233));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.p_1{
+    color: rgb(159, 159, 159);
+}
+.contact_link{
+    color: rgb(102, 133, 214);
+    font-size: xx-large;
+}
+.profile_pic{
+    width: 33vw;
+}
+
+@media only screen and (max-width: 986px) {
+    .profile_container{
+        display: none !important;
+    }
+  }
+
